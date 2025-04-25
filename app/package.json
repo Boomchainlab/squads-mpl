@@ -12,7 +12,7 @@
   "dependencies": {
     "@octokit/auth-basic": "^1.4.8",
     "@octokit/rest": "^19.0.13",
-    "@project-serum/anchor": "^0.25.0",
+    "@project-serum/anchor": "^0.26.0",
     "@sqds/sdk": "^1.0.4",
     "axios": "^0.30.0",
     "bn.js": "^5.2.1",
