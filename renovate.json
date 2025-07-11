@@ -1,0 +1,5 @@
+{
+  "extends": [
+    "github>Boomchainlab/boomchainlab-ci:.github/renovate/default.json"
+  ]
+}
