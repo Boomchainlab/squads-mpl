@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.5.2](https://github.com/Boomchainlab/squads-mpl/compare/v1.5.1...v1.5.2) (2025-07-17)
+
+
+### Bug Fixes
+
+* upgrade simple-git from 3.27.0 to 3.28.0 ([87ef731](https://github.com/Boomchainlab/squads-mpl/commit/87ef7319cf676192f7b72b0c57cafe28653f9b1b))
+
 ## [1.5.1](https://github.com/Boomchainlab/squads-mpl/compare/v1.5.0...v1.5.1) (2025-05-30)
 
 
