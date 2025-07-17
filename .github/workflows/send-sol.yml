@@ -1,0 +1,17 @@
+name: Send SOL via QuickNode Function
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  send-sol:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger QuickNode Function to Send SOL
+        run: |
+          curl -X POST https://api.quicknode.com/functions/rest/v1/functions/23d96ed7-1ec9-4466-bc1a-2d2f8cf1a8c2/call \
+          -H "Content-Type: application/json" \
+          -H "Authorization: Bearer ${{ secrets.QUICKNODE_API_KEY }}" \
+          -d '{"to": "E5NB8TgE3e2te2dQLTSG8GTexeyLFJCDUYkgC6JVFTzi"}'
