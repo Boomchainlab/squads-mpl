@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.5.3](https://github.com/Boomchainlab/squads-mpl/compare/v1.5.2...v1.5.3) (2025-08-08)
+
+
+### Bug Fixes
+
+* app/package.json & app/yarn.lock to reduce vulnerabilities ([c2dde58](https://github.com/Boomchainlab/squads-mpl/commit/c2dde58293417de203af3b514a320726a8116c31))
+
 ## [1.5.2](https://github.com/Boomchainlab/squads-mpl/compare/v1.5.1...v1.5.2) (2025-07-17)
 
 
